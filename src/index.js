@@ -5,9 +5,9 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DATA = [
-  { id: "todo-0", name: "Eat", completed: true },
-  { id: "todo-1", name: "Sleep", completed: false },
-  { id: "todo-2", name: "Repeat", completed: false }
+  { id: "todo-0", name: "Mangiare", completed: true },
+  { id: "todo-1", name: "Bere", completed: false },
+  { id: "todo-2", name: "Dormire", completed: false }
 ];
 
 ReactDOM.render(
