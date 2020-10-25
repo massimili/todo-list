@@ -14,30 +14,31 @@ function Form(props) {
         setName(e.target.value);
     }
     return (
+
         <Formm className="form-inline" onSubmit={handleSubmit}>
             <h2 className="label-wrapper">
                 <label htmlFor="new-todo-input" className="label__lg">
                     Cose da fare
                 </label>
             </h2>
-            <center>
-                <input
-                    type="text"
-                    id="new-todo-input"
-                    className="input"
-                    name="text"
-                    autoComplete="off"
-                    value={name}
-                    onChange={handleChange}
-                />
 
-                <Button type="submit" variant="primary">
-                    Aggiungi
+            <input
+                type="text"
+                id="new-todo-input"
+                className="input"
+                name="text"
+                autoComplete="off"
+                value={name}
+                onChange={handleChange}
+            />
+
+            <Button type="submit" variant="primary">
+                Aggiungi
                 </Button>
-            </center>
 
 
         </Formm >
+
     );
 }
 
